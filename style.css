@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 2vw;
+    background-image: url(https://img.freepik.com/foto-gratuito/torta-festiva-teiera-uova-e-fiori-sul-tavolo-celebrazione-di-pasqua-e-concetto-di-tavola_169016-9557.jpg?semt=ais_hybrid);
+    background-repeat: repeat-y;
+    background-position: bottom;
+    background-size: cover;
+    object-fit: cover;
+}
+.invito {
+    align-items: center;
+    justify-items: center;
+    margin-block: 15px;
+}
+
+.titolo1 {
+    font-size: 64px;
+}
+
+#tasto {
+    padding: 2vw;
+    border-width: 2vw;
+    border-color: rgb(252, 160, 217);
+    justify-content: center;
+    background-color: antiquewhite;
+}
+#head{
+    justify-self: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+    border-width: 5%;
+    border-color: lightcoral;
+    border-style: inset;
+}
+#section , .lista , .titolo2intro{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+    border-width: 5%;
+    border-color: lightcoral;
+    border-style: inset;
+    justify-self: center;
+}
+.titolo2intro{
+    border-width: 1vw;
+}
+.lista{
+    border-style: ridge;
+    border-width: 2vw;
+    justify-content:center;
+    justify-items: center;
+}
+#foot{
+    justify-self: center;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+    border-width: 5%;
+    border-color: lightcoral;
+    border-style: inset;
+}
+#tasto{
+    float: right;
+}
+#footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+    color: darkviolet;
+    border-color: darkviolet;
+    border-width: 5%;
+    border-radius: 25%;
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+}
